@@ -6,21 +6,12 @@ on:
   pull_request:
     branches: [ master ]
 
-<<<<<<< HEAD
 jobs:
     hello-world:
       runs-on: ubuntu-latest
 
       steps:
       - name: Checkout code
-=======
-  jobs: 
-    hello-world:
-      runs-on: ubuntu-latest
-      
-      steps:
-      - name: Chekout code
->>>>>>> 780e9e6693790f163f5024f04f6198e4f787bf2f
       - uses: actions/checkout@v3
 
       - name: Say Hallo
