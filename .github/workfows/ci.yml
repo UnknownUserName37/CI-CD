@@ -2,16 +2,16 @@ name: CI for CI/CD Project
 
 on :
   push:
-    branches: [main]
+    branches: [ master ]
   pull_request:
-    branches: [main]
+    branches: [ master ]
 
-  jobs: 
+jobs:
     hello-world:
       runs-on: ubuntu-latest
-      
+
       steps:
-      - name: Chekout code
+      - name: Checkout code
       - uses: actions/checkout@v3
 
       - name: Say Hallo
