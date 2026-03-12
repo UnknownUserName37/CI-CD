@@ -1,6 +1,6 @@
 name: CI for CI/CD Project
 
-on :
+on:
   push:
     branches: [ master ]
   pull_request:
